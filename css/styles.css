@@ -724,6 +724,9 @@ a:hover {
 .filter .element-item img {
 	margin-bottom: 1.125rem;
 	border-radius: 8px;
+    height: 200px; /* Set desired height */
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+    width: 100%; /* Ensure images span the container width */
 }
 
 .filter .element-item p {
